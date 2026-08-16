@@ -1,0 +1,44 @@
+/* Main application */
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1400px;
+}
+
+/* Metric cards */
+
+[data-testid="stMetric"] {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #e5e5e5;
+}
+
+/* Buttons */
+
+.stButton > button {
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+}
+
+/* Headers */
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 650;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+/* Information boxes */
+
+[data-testid="stAlert"] {
+    border-radius: 12px;
+}
